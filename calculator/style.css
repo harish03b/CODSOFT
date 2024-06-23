@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+h1{
+  position: absolute;
+  top: 0px;
+  color:rgb(205, 37, 185);
+ text-decoration: underline;
+  font-size: 50px;
+  background-color: black;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+
+}
+h3{
+  color: white;
+}
+
+p{
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  margin: 150px 150px 150px 0px;
+  background-color: black;
+color: white;
+text-align: center;
+}
+body{
+     height: 1000px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    background: linear-gradient(45deg,rgb(38, 38, 66),rgb(126, 96, 96)) ;
+    
+  }
+
+.calculator{
+  width: 300px;
+  height: 470px;
+  border: 1.5px solid grey ;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgb(31, 37, 37);
+  box-shadow: 0px 4px 12px rgb(247, 253, 94) ;
+   
+  
+}
+
+input{
+   width: 270px;
+  padding: 20px;
+  margin: 5px;
+  border: none;
+  background-color:white;
+  box-shadow: 0px 3px 10px rgb(38, 170, 102);
+  border-radius: 10px;
+  font-size: 40px;
+  text-align: right;
+}
+
+button{
+  border: none;
+  width:45px;
+  height: 50px;
+  margin:5px 8px 10px 10px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 25px ;
+  box-shadow: 0px 3px 12px rgb(47, 164, 182) ;
+  background-color: black;
+}
+
+.equalto{
+  background-color: rgb(31, 125, 219);
+}
+.operator{
+ background-color: green;
+}
